@@ -1,5 +1,5 @@
 .skills-section {
-  padding: 2rem 0 ;
+  padding: 2rem 0;
   background-color: black;
   margin-bottom: 30px;
 }
@@ -24,12 +24,12 @@
 .description {
   font-size: 1rem;
   color: #6c757d;
-  
 }
+
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 1.5rem; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
   align-items: center;
 }
 
@@ -41,7 +41,6 @@
   border-radius: 5px;
   justify-content: start;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  
 }
 
 .icon {
@@ -54,21 +53,20 @@
   font-size: 1.125rem;
   font-weight: 500;
 }
-.abc{
 
+.abc {
   padding: 20px;
-  border-radius: 10px  ;
+  border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  
 }
+
 .abc:hover {
   transform: scale(1.02);
   border-radius: 5px;
-
 }
-.skill-card:hover{
+
+.skill-card:hover {
   transform: scale(1.02);
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.4), 0 6px 20px 0 rgba(64, 64, 64, 0.3);
-
 }

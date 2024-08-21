@@ -1,37 +1,38 @@
-/* General styles for the header */
 .navbar-container {
-  background-color: #000000; /* Dark background */
+  background-color: #000000;
   position: sticky;
   top: 0;
   width: 100%;
-  z-index: 1000; /* Ensure it stays on top of other content */
+  z-index: 1000;
 }
 
-/* Container styles for layout */
 .navbar {
   display: flex;
   align-items: center;
   padding: 0.75rem 1.25rem;
-  max-width: 1140px; 
-  margin: 0 auto; 
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-/* Brand styles */
 .navbar-brand {
-  color: #fff; /* White text */
+  color: #f8f9fa;
   text-decoration: none;
-  margin-right: auto; /* Pushes the brand to the start */
-  transition: color 0.3s; /* Smooth color transition */
+  margin-right: auto;
+  transition: color 0.3s, transform 0.3s;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
-/* Ensure brand color remains white on hover */
 .navbar-brand:hover {
-  color: #fff; /* Keep the color white */
+  color: #28a745;
+  transform: scale(1.1);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* Navigation menu styles */
+
 .nav-menu {
-  flex-grow: 1; /* Allows the menu to take available space */
+  flex-grow: 1;
 }
 
 .nav-items {
@@ -39,34 +40,34 @@
   padding: 0;
   margin: 0;
   display: flex;
+  justify-content: space-evenly;
+  flex: 1;
 }
 
 .nav-item {
-  margin-right: 1rem; /* Spacing between items */
+  margin-right: 1rem;
 }
 
 .nav-link {
-  color: #fff;
+  color: #f8f9fa;
   text-decoration: none;
   padding: 0.5rem 1rem;
   display: block;
 }
 
-/* Hover effect for links */
 .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(40, 167, 69, 0.2);
   border-radius: 0.25rem;
 }
 
-/* Button styles */
 .btn-hire-me {
-  color: #fff;
-  border: 1px solid #fff;
+  color: #f8f9fa;
+  border: 1px solid #f8f9fa;
   padding: 0.5rem 1rem;
   text-decoration: none;
   display: flex;
   align-items: center;
-  margin-left: auto; /* Pushes the button to the end */
+  margin-left: auto;
   border-radius: 10px;
 }
 

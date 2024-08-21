@@ -1,6 +1,5 @@
 .certifications {
-    /* border: 1px solid;
-    border-color: #3f3e3e; */
+   background-color: black;
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 5px;
@@ -28,7 +27,7 @@
     color: white;
     border-radius: 5px;
     justify-content: start;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition property */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .uj:hover {

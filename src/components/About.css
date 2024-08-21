@@ -1,72 +1,102 @@
 .about-section {
-    background-color: #000000; /* Change this color as per your design */
-    color: #fff; /* Text color */
-    padding: 50px 0px;
-  }
-  
-  .bhanu {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto; 
-    text-align: center;
-    padding: 3px;
+  background-color: #000000;
+  color: #fff;
+  padding: 50px 0px;
+}
 
-  }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  
-  .text-section {
-    flex: 1;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: start;
-  }
-  
-  .description {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    text-align: start;
-  }
-  
-  .buttons {
-    display: flex;
-    justify-content: start;
-    gap: 20px;
-    padding: 20px 0;
-  }
-  
-  .btn {
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #fff;
-    border-radius: 5px;
-  }
-  
-  .btn-success {
-    background-color: #28a745; /* Green */
-    transition: transform 0.3s ease;
-  }
-  
-  .btn-dark {
-    background-color: #3f3e3e; /* Dark */
-  }
-  
-  .image-section {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .image {
-    max-width: 100%;
-    border-radius: 10px;
-  }
+.bhanu {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; 
+  text-align: center;
+  padding: 3px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.text-section {
+  flex: 1;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.buttons {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn-success {
+  background-color: #28a745;
+}
+
+.btn-dark {
+  background-color: #3f3e3e;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: transform 0.5s ease;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.btn:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.btn span {
+  position: relative;
+  z-index: 1;
+}
+
+.image-section {
+  flex: 1;
+  text-align: center;
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 10px;
+}

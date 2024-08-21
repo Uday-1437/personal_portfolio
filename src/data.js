@@ -1,6 +1,7 @@
 import portfolioImage from './assets/portfolio.png';
 import ecommerceImage from './assets/ecommerce.png';
 import pancreaticImage from './assets/pancreatic.png';
+import chatImge from "./assets/chatImg.png"
 
 export const projects = [
   {
@@ -21,8 +22,8 @@ export const projects = [
     title: "Chat App",
     subtitle: "React and Firebase",
     description: "Dive into seamless conversations with 'Let's Connect'—your gateway to real-time communication. Whether it's chatting with friends, collaborating with teams, or meeting new people, our app makes it effortless. Fast, secure, and user-friendly, 'Let's Connect' brings people closer with just a few taps.",
-    image: "https://play-lh.googleusercontent.com/onDyRCvz7Av1llSaBaovP2ZRmrIl-b03XVps9amvbowAuHi1hgIcaRWgm3ImATx-3iA",
-    link: "",
+    image: chatImge,
+    link: "https://jbconvo.netlify.app/",
   },
   {
     title: "Detection of Pancreatic tumor",
