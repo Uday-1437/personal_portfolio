@@ -1,0 +1,94 @@
+/* Footer.css */
+
+.footer {
+    background-color: black; 
+    padding: 2rem 1rem; 
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.info {
+    max-width: 1200px; /* Ensure this matches your layout's max width */
+    margin: 0 auto; /* Center the footer */
+    
+}
+
+.map-info {
+  
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.info-section {
+    flex: 1; /* Ensure sections take up equal space */
+}
+
+.info-title {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem; 
+}
+
+.info-text {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.info-link {
+    color: #2d6eb5; /* Link color */
+    text-decoration: none;
+}
+
+.info-link:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    color: #666;
+    padding: 1rem; 
+    
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.credits {
+    text-align: center;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.social-media-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-media-wrapper a {
+    transition: color 0.3s ease;
+}
+
+.social-media-wrapper a:hover {
+    color: #8da3bb; 
+}
+
+.list-unstyled {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.list-unstyled li {
+    margin: 0;
+    padding: 0;
+}
+h6{
+   color: #666; 
+}
+.row{
+    display: flex;
+    justify-content: center;
+}

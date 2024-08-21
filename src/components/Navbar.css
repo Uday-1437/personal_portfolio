@@ -1,0 +1,77 @@
+/* General styles for the header */
+.navbar-container {
+  background-color: #000000; /* Dark background */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+/* Container styles for layout */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.25rem;
+  max-width: 1140px; 
+  margin: 0 auto; 
+}
+
+/* Brand styles */
+.navbar-brand {
+  color: #fff; /* White text */
+  text-decoration: none;
+  margin-right: auto; /* Pushes the brand to the start */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+/* Ensure brand color remains white on hover */
+.navbar-brand:hover {
+  color: #fff; /* Keep the color white */
+}
+
+/* Navigation menu styles */
+.nav-menu {
+  flex-grow: 1; /* Allows the menu to take available space */
+}
+
+.nav-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 1rem; /* Spacing between items */
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+/* Hover effect for links */
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.25rem;
+}
+
+/* Button styles */
+.btn-hire-me {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Pushes the button to the end */
+  border-radius: 10px;
+}
+
+.arrow-icon {
+  margin-left: 0.5rem;
+  width: 16px;
+  height: 16px;
+}
